@@ -33,9 +33,5 @@ int main() {
 
   applyConvolution(x, w, pack_with_zeros);
 
-  pack_with_zeros = false;
-
-  applyConvolution(x, w, pack_with_zeros);
-
   return 0;
 }
