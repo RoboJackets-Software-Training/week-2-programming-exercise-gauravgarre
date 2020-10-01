@@ -31,6 +31,11 @@ std::vector<double> applyConvolution(std::vector<double> x, std::vector<double> 
     }
     y.push_back(accumulator);
   }
+  std::cout << "x: ";
+  printVector(x);
+
+  std::cout << "w: ";
+  printVector(w);
 
   printVector(y);
 
